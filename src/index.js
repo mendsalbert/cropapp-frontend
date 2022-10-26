@@ -4,7 +4,7 @@ import App from "./App";
 import store from "./Redux/store";
 import { Provider } from "react-redux";
 import axios from "axios";
-axios.defaults.baseURL = "https://cropapp-server.herokuapp.com ";
+axios.defaults.baseURL = "https://cropapp-server.herokuapp.com";
 
 ReactDOM.render(
   <Provider store={store}>
