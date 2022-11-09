@@ -187,7 +187,7 @@ const Header = () => {
                   </div>
                 ) : (
                   <>
-                    <Link to="/register">Register</Link>
+                    <Link to="/register">Sign Up</Link>
                     <Link to="/login">Login</Link>
                   </>
                 )}
